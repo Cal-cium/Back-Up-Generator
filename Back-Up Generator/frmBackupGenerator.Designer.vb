@@ -62,9 +62,9 @@ Partial Class frmBackupGenerator
         Me.cbNoOverwrite.AutoSize = True
         Me.cbNoOverwrite.Location = New System.Drawing.Point(6, 19)
         Me.cbNoOverwrite.Name = "cbNoOverwrite"
-        Me.cbNoOverwrite.Size = New System.Drawing.Size(71, 17)
+        Me.cbNoOverwrite.Size = New System.Drawing.Size(99, 17)
         Me.cbNoOverwrite.TabIndex = 3
-        Me.cbNoOverwrite.Text = "Overwrite"
+        Me.cbNoOverwrite.Text = "Don't Overwrite"
         Me.cbNoOverwrite.UseVisualStyleBackColor = True
         '
         'GroupBox1
@@ -92,7 +92,7 @@ Partial Class frmBackupGenerator
         Me.GroupBox3.Controls.Add(Me.cbNoOverwrite)
         Me.GroupBox3.Location = New System.Drawing.Point(12, 115)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(291, 56)
+        Me.GroupBox3.Size = New System.Drawing.Size(295, 46)
         Me.GroupBox3.TabIndex = 6
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Settings:"
